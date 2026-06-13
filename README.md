@@ -15,6 +15,13 @@
 
 > 首次启用:仓库 Settings → Pages → Source 选择 **GitHub Actions**(workflow 已尝试自动启用,如部署失败请手动设置一次)。
 
+## 最小化示例
+
+[`example-wiki/`](example-wiki/) 是一个零代码的最小 LLM Wiki 实例(AI + Python 主题):
+3 份原始资料 + Schema(`CLAUDE.md`)+ LLM 维护的知识层(来源摘要、概念页、实体页、
+综合页、index/log),并演示了 wikilink 交联、CONFLICT 矛盾标记与"答案沉淀为页面"。
+详见 [example-wiki/README.md](example-wiki/README.md)。
+
 ## 本地预览
 
 ```bash
